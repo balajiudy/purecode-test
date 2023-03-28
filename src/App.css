@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/*sidemenu*/
+.MuiBox-root.css-1200jbv>header>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.MuiBox-root.css-1200jbv>header>p>span {
+    color: #5ecb5e;
+}
+
+a[href="/buynow"] {
+    text-decoration: none;
+}
+
+.bodyTabs {
+    display: flex;
+}
+
+.sideMenu_div {
+    max-height: 93.4vh;
+    padding: 0px 20px 0px 0px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+.MuiList-subheader {
+    margin: 0px 0px 0px 20px !important;
+}
+
+.css-10hburv-MuiTypography-root {
+    font-size: small !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    width: 0.7em !important;
+    height: 0.7em !important;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+    min-width: 30px !important;
+}
+
+div.MuiListItemIcon-root.css-10p1mjm-MuiListItemIcon-root {
+    min-width: 30px;
+}
+
+.css-au7hoy-MuiButtonBase-root-MuiListItemButton-root {
+    padding: 2px 16px !important;
+}
+
+a[class="sideMenuAnchor"] {
+    color: #000;
+    width: 100%;
+    text-decoration: none;
+}
+
+.titeleSideMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*body*/
+.body_div {
+    background-color: #f5f7fa;
+    width: 100%;
+    position: relative;
+}
+
+div.MuiBox-root.css-1kcpu9f>button {
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    box-shadow: -1px 3px 5px 0px #d3d3d361;
+}
+
+.misc_div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+hr {
+    margin: 0px;
+    height: 2px solid rgb(184, 184, 184);
+    background-color: rgb(184, 184, 184);
+
+}
+
+.misc_div2 {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.Chip_comp {
+    position: absolute;
+}
